@@ -33,3 +33,12 @@ body{
 .secondary-font{
     font-family: "Questrial", sans-serif;
 }
+.footer-circle{
+    @apply border-2 border-white rounded-full;
+}
+.policy{
+   @apply hover:text-yellow-300 cursor-pointer;
+}
+.hover-nev{
+@apply hover:text-yellow-600 cursor-pointer ; 
+}
